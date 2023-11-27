@@ -484,7 +484,7 @@
   - name: Purchase Order Date
     title: Purchase Order Date
     type: field_filter
-    default_value: ''
+    default_value: is not null
     allow_multiple_values: true
     required: true
     ui_config:
