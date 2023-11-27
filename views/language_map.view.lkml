@@ -22,7 +22,10 @@ view: language_map{
             SELECT 'TR' as TwoCharacterSapLanguageCode_LAISO, 'tr_TR' as Looker_Locale UNION ALL
             SELECT 'UK' as TwoCharacterSapLanguageCode_LAISO, 'uk_UA' as Looker_Locale UNION ALL
             SELECT 'ZH' as TwoCharacterSapLanguageCode_LAISO, 'zh_CN' as Looker_Locale UNION ALL
-            SELECT 'ZH' as TwoCharacterSapLanguageCode_LAISO, 'zh_TW' as Looker_Locale)
+            SELECT 'ZH' as TwoCharacterSapLanguageCode_LAISO, 'zh_TW' as Looker_Locale UNION ALL
+            SELECT 'P' as TwoCharacterSapLanguageCode_LAISO, 'pt_BR' as Looker_Locale UNION ALL
+            SELECT 'E' as TwoCharacterSapLanguageCode_LAISO, 'en' as Looker_Locale UNION ALL
+            SELECT 'S' as TwoCharacterSapLanguageCode_LAISO, 'es_ES' as Looker_Locale)
 
             SELECT t002.LanguageKey_SPRAS, temp.TwoCharacterSapLanguageCode_LAISO, temp.Looker_Locale
             FROM ${languages_t002.SQL_TABLE_NAME} as t002
