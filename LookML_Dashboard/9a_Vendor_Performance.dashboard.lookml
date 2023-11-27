@@ -315,7 +315,7 @@
   - name: Purchase Order Date
     title: Purchase Order Date
     type: field_filter
-    default_value: 365 day
+    default_value: 2022/01/01 to 2023/12/31
     allow_multiple_values: true
     required: true
     ui_config:

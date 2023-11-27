@@ -272,7 +272,7 @@
   - name: Invoice Date
     title: Invoice Date
     type: field_filter
-    default_value: 365 day
+    default_value: 2022/01/01 to 2023/12/31
     allow_multiple_values: true
     required: true
     ui_config:
@@ -286,7 +286,7 @@
   - name: Target Currency
     title: Target Currency
     type: field_filter
-    default_value: USD
+    default_value: "{{ _user_attributes['default_value_currency_required'] }}"
     allow_multiple_values: true
     required: true
     ui_config:
